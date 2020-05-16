@@ -43,6 +43,7 @@ bot.on("message", async message => {
 
     if( command === `hallo`){
         console.log(`hallo`);
+        return message.channel.send(`hallo`);
         
     }
    
