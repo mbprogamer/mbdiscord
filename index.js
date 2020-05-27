@@ -42,7 +42,8 @@ bot.on("message", async message => {
     var arguments = messageArray.slice(1);
 
     if( command === `hallo`){
-        console.log(message);
+        console.log("hallo");
+        
         
     }
    
