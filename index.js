@@ -42,8 +42,7 @@ bot.on("message", async message => {
     var arguments = messageArray.slice(1);
 
     if( command === `hallo`){
-        console.log(`hallo`);
-        return message.channel.send(`hallo`);
+        console.log(message);
         
     }
    
